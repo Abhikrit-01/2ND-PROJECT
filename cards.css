@@ -1,0 +1,75 @@
+*{
+    padding:0%;
+    margin:0%;
+}
+body,html{
+    height:100%;
+    width:100%;
+    background-color: beige;
+}
+#main{
+    height:100%;
+    width:100%;
+    background-color: antiquewhite;
+}
+.card1{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height:280px;
+    width:190px;
+    object-fit: cover ;
+    border:1px solid salmon;
+    border-radius:15px;
+    overflow: hidden;
+}
+#l{
+    background-color: red;
+    z-index: 4;
+    transform: translate(-50%,-50%);
+    
+}
+
+   #m{                                                   /*   this is done to rotate about the absolute center */
+    background-color:yellow;
+    z-index: 3;
+    background-size: cover;
+    transform: translate(-50%,-50%)rotate(-10deg);
+    
+}
+#n{
+    background-color:green;
+    z-index: 2;
+    transform: translate(-50%,-50%)rotate(-18deg);
+    
+}
+#o{
+    background-color:salmon ;
+    z-index: 1;
+    transform: translate(-50%,-50%)rotate(-26deg);
+   
+}
+#l:hover{
+    z-index: 10;
+    background-size: cover;
+    
+    background-image: url("https://imgs.search.brave.com/HB9bKXK74_nUdDV82cY-zcIiy9OBuT4S5cr6PWLN_2w/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDM5ODg4/NjAuanBn");
+}
+#m:hover{
+    z-index:10;
+    background-size:cover;
+    background-image :url("https://imgs.search.brave.com/aY2hK2F3pce5W8VPLl87ynAsATrlA7ozfHWVolu93i8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvdmly/YXQta29obGktaGQt/Y3JpY2tldC1zcG9y/dHMtYXJ0LWExNDBp/aXA2eXZ4MzhpZ28u/anBn");
+}
+
+#n:hover{
+    z-index: 10;
+    background-image: url("https://imgs.search.brave.com/jHr6RjaVm8m9lg_t9k-LpH8I1rkrojpzjwfd-0UFKPA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDM5OTAw/MzcuanBn");
+    background-size: cover;
+}
+
+#o:hover{
+    z-index: 10;
+    background-size: cover;
+   
+    background-image: url("https://imgs.search.brave.com/FN6H8N960tsO6Dw2aTF3g6gQNo46EvI8lT9F5mpKwck/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDYwNTA3/MDguanBn");
+}
